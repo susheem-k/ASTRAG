@@ -1,0 +1,58 @@
+:root {
+  --canvas: #ffffff;
+  --surface: #f9fbfa;
+  --hairline: #e1e5e8;
+  --ink: #001e2b;
+  --slate: #3d4f5b;
+  --steel: #5c6c7a;
+  --brand-teal-deep: #001e2b;
+  --brand-green: #00ed64;
+  --brand-green-dark: #00684a;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+  --shadow-2: rgba(0, 30, 43, 0.08) 0px 4px 12px 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family:
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    "Apple Color Emoji",
+    "Segoe UI Emoji";
+  color: var(--ink);
+  background: var(--surface);
+}
+
+a {
+  color: inherit;
+}
+
+code,
+pre {
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    "Liberation Mono",
+    "Courier New",
+    monospace;
+}
+
